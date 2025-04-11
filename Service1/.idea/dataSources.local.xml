@@ -10,9 +10,11 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database">
-            <name qname="@" />
-            <name qname="Archi-SI-Project" />
+          <node negative="1">
+            <node kind="database" qname="@" />
+            <node kind="database" qname="Archi-SI-Project">
+              <node kind="schema" qname="public" />
+            </node>
           </node>
         </introspection-scope>
       </schema-mapping>
