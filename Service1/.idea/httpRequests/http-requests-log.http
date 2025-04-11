@@ -1,3 +1,344 @@
+GET http://localhost:8080/movies/search?minDuration=1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T101920.200.json
+
+###
+
+GET http://localhost:8080/movies/search?minDuration=1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T101100.200.json
+
+###
+
+GET http://localhost:8080/movies/search?searchTerm=Nolan
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T101031.200.json
+
+###
+
+GET http://localhost:8080/movies/search?searchTerm=Nolan
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T100329.200.json
+
+###
+
+GET http://localhost:8080/movies/search?searchTerm=voleur
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T100314.200.json
+
+###
+
+GET http://localhost:8080/movies/search?searchTerm=Inception
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T100257.200.json
+
+###
+
+GET http://localhost:8080/movies/search?searchTerm=MAX
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T100210.200.json
+
+###
+
+GET http://localhost:8080/movies/search?maxDuration=180
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T100140.200.json
+
+###
+
+GET http://localhost:8080/movies/search?maxDuration=150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T100055.200.json
+
+###
+
+GET http://localhost:8080/movies
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095951.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095935.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Thriller
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095927.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Fantasy
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095915.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095855.200.json
+
+###
+
+GET http://localhost:8080/movies/search?minCreationDate=2020-01-01
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095846.200.json
+
+###
+
+GET http://localhost:8080/movies/search?maxDuration=150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095736.200.json
+
+###
+
+GET http://localhost:8080/movies/search?searchTerm=MAX
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095712.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095617.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095523.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=MAX
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095510.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=MAX&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095437.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=test&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T095328.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=test&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T094709.500.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=test&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T094552.500.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=test&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T094401.500.json
+
+###
+
+GET http://localhost:8080/movies/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T094302.200.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=max&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T094049.500.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=Action&maxDuration=150&minCreationDate=2020-01-01&searchTerm=max&city=Paris
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T094020.400.json
+
+###
+
+GET http://localhost:8080/movies/search?genre=GUtdSloV&maxDuration=79&minCreationDate=iD4fMYVG&searchTerm=9xPJpqhP&city=rJZZt8Wv
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T093923.400.json
+
+###
+
+GET http://localhost:8080/movies
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T093030.200.json
+
+###
+
+GET http://localhost:8080/movies/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+content-length: 0
+
+<> 2025-04-11T092501.200.json
+
+###
+
 GET http://localhost:8080/movies/1
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
 Accept-Encoding: br, deflate, gzip, x-gzip

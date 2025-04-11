@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-04-11T07:40:49.219+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/movies/search"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "title": "Inception",
+  "duration": 148,
+  "creationDate": "2010-07-16",
+  "director": "Christopher Nolan",
+  "image": null,
+  "mainActors": null,
+  "synopsis": "Un voleur qui entre dans les rêves.",
+  "minAge": 13,
+  "genre": "Science Fiction"
+}
