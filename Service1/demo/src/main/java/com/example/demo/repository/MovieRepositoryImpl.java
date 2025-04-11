@@ -16,7 +16,8 @@ public class MovieRepositoryImpl implements MovieRepositoryCustom {
     @PersistenceContext
     private EntityManager entityManager;
     @Override
-    public List<Movie> searchMovies(String genre, Integer minDuration, Integer maxDuration, LocalDate minCreationDate, LocalDate maxCreationDate, String searchTerm, String city) {
+    public List<Movie> searchMovies(String genre, Integer minDuration, Integer maxDuration, LocalDate minCreationDate, LocalDate maxCreationDate, String searchTerm, String city, String sessionDate) {
+        // System.out.println("genre: " + genre + ", minDuration: " + minDuration + ", maxDuration: " + maxDuration + ", minCreationDate: " + minCreationDate + ", maxCreationDate: " + maxCreationDate + ", searchTerm: " + searchTerm + ", city: " + city + ", sessionDate: " + sessionDate);
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT DISTINCT m.* ");
         sql.append("FROM movie m ");
@@ -47,6 +48,17 @@ public class MovieRepositoryImpl implements MovieRepositoryCustom {
         if (city != null) {
             sql.append("AND (LOWER(c.name) LIKE LOWER(:city) OR c.zip_code = :city) ");
         }
+        if (sessionDate != null) {
+            if (sessionDate.equalsIgnoreCase("past")) {
+                sql.append("AND CURRENT_DATE > s.ending_date ");
+            } else if (sessionDate.equalsIgnoreCase("current")) {
+                sql.append("AND CURRENT_DATE BETWEEN s.starting_date AND s.ending_date ");
+            } else if (sessionDate.equalsIgnoreCase("upcoming")) {
+                sql.append("AND CURRENT_DATE < s.starting_date ");
+            }
+        }
+
+        System.out.println(sql.toString());
 
         Query query = entityManager.createNativeQuery(sql.toString(), Movie.class);
 
@@ -57,6 +69,7 @@ public class MovieRepositoryImpl implements MovieRepositoryCustom {
         if (maxCreationDate != null) query.setParameter("maxCreationDate", maxCreationDate);
         if (searchTerm != null) query.setParameter("searchTerm", searchTerm);
         if (city != null) query.setParameter("city", city);
+        if (sessionDate != null) query.setParameter("sessionDate", sessionDate);
 
         return query.getResultList();
     }

@@ -20,6 +20,7 @@ public class MovieController {
     }
     @GetMapping()
     public List<Movie> getAllMovies() {
+        System.out.println("request");
         return movieService.getAllMovies();
     }
     @GetMapping("/{id}")
@@ -35,10 +36,11 @@ public class MovieController {
             @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate minCreationDate,
             @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate maxCreationDate,
             @RequestParam(required = false) String searchTerm,
-            @RequestParam(required = false) String city
+            @RequestParam(required = false) String city,
+            @RequestParam(required = false) String sessionDate
     ) {
-        System.out.println("genre: " + genre);
-        return movieService.filterMovies(genre, minDuration, maxDuration, minCreationDate, maxCreationDate, searchTerm, city);
+        System.out.println("genre: " + genre + ", minDuration: " + minDuration + ", maxDuration: " + maxDuration + ", minCreationDate: " + minCreationDate + ", maxCreationDate: " + maxCreationDate + ", searchTerm: " + searchTerm + ", city: " + city + ", sessionDate: " + sessionDate);
+        return movieService.filterMovies(genre, minDuration, maxDuration, minCreationDate, maxCreationDate, searchTerm, city, sessionDate);
     }
 
 
