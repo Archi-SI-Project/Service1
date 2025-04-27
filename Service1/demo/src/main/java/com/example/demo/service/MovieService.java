@@ -31,9 +31,10 @@ public class MovieService {
             LocalDate minCreationDate,
             LocalDate maxCreationDate,
             String searchTerm,
-            String city
+            String city,
+            String sessionDate
     ) {
-        return movieRepository.searchMovies(genre, minDuration, maxDuration, minCreationDate, maxCreationDate, searchTerm, city);
+        return movieRepository.searchMovies(genre, minDuration, maxDuration, minCreationDate, maxCreationDate, searchTerm, city, sessionDate);
     }
 
 

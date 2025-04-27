@@ -13,6 +13,7 @@ public interface MovieRepositoryCustom {
             LocalDate minCreationDate,
             LocalDate maxCreationDate,
             String searchTerm,
-            String city
+            String city,
+            String sessionDate
     );
 }
