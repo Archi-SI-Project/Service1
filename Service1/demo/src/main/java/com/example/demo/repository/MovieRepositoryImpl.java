@@ -4,7 +4,6 @@ import com.example.demo.persistance.Movie;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
-import jakarta.persistence.TypedQuery;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
@@ -20,7 +19,7 @@ public class MovieRepositoryImpl implements MovieRepositoryCustom {
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT DISTINCT m.* ");
         sql.append("FROM movie m ");
-        sql.append("JOIN session s ON s.id_movie = m.id_movie ");
+        sql.append("JOIN session_instance s ON s.id_movie = m.id_movie ");
         sql.append("JOIN movietheater mt ON s.id_movie_theater = mt.id_movie_theater ");
         sql.append("JOIN city c ON mt.city_id = c.id_city ");
         sql.append("WHERE 1=1 ");

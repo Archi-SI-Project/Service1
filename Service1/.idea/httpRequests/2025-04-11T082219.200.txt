@@ -1,1 +1,0 @@
-[com.example.demo.persistance.Movie@37d2c20e, com.example.demo.persistance.Movie@42859828, com.example.demo.persistance.Movie@6488f5c]

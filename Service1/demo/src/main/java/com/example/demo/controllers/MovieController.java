@@ -37,7 +37,7 @@ public class MovieController {
             @RequestParam(required = false) String searchTerm,
             @RequestParam(required = false) String city
     ) {
-        System.out.println("genre: " + genre);
+
         return movieService.filterMovies(genre, minDuration, maxDuration, minCreationDate, maxCreationDate, searchTerm, city);
     }
 

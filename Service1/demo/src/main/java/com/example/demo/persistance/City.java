@@ -1,16 +1,13 @@
 package com.example.demo.persistance;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import org.hibernate.annotations.ColumnDefault;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "city", schema = "public")
 public class City {
     @Id
-    @ColumnDefault("nextval('city_id_city_seq')")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "city_id_gen")
+    @SequenceGenerator(name = "city_id_gen", sequenceName = "city_id_city_seq", allocationSize = 1)
     @Column(name = "id_city", nullable = false)
     private Integer id;
 

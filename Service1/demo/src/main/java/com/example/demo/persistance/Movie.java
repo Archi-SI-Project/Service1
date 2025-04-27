@@ -1,10 +1,6 @@
 package com.example.demo.persistance;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import org.hibernate.annotations.ColumnDefault;
+import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
@@ -12,7 +8,8 @@ import java.time.LocalDate;
 @Table(name = "movie", schema = "public")
 public class Movie {
     @Id
-    @ColumnDefault("nextval('movie_id_movie_seq')")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "movie_id_gen")
+    @SequenceGenerator(name = "movie_id_gen", sequenceName = "movie_id_movie_seq", allocationSize = 1)
     @Column(name = "id_movie", nullable = false)
     private Integer id;
 
