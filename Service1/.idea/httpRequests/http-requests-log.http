@@ -1,3 +1,13 @@
+GET http://localhost:8080/movies/search?minCreationDate=2015&maxCreationDate=2020
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
+
+<> 2025-04-27T152036.200.json
+
+###
+
 GET http://localhost:8080/movietheaters
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -523,17 +533,6 @@ Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
 content-length: 0
 
 <> 2025-04-11T095927.200.json
-
-###
-
-GET http://localhost:8080/movies/search?genre=Fantasy
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: JSESSIONID=728CDD772D4C9AE3C7E400BD2F08BCE0
-content-length: 0
-
-<> 2025-04-11T095915.200.json
 
 ###
 
