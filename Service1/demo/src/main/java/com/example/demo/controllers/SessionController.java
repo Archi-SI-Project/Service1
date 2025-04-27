@@ -1,6 +1,7 @@
 package com.example.demo.controllers;
 
 
+import com.example.demo.DTO.SessionDTO;
 import com.example.demo.persistance.Session;
 import com.example.demo.service.SessionService;
 import jakarta.transaction.Transactional;
@@ -20,14 +21,19 @@ public class SessionController {
     }
     @Transactional
     @GetMapping()
-    public List<Session> getAllSessions() {
+    public List<SessionDTO> getAllSessions() {
         return sessionService.getAllSessions();
     }
 
     @Transactional
     @GetMapping("/{id}")
-    public Session getSessionById(@PathVariable int id) {
+    public SessionDTO getSessionById(@PathVariable int id) {
         return sessionService.getSessionById(id);
     }
 
+    @Transactional
+    @GetMapping("/movie/{movieId}")
+    public SessionDTO getSessionByMovieId(@PathVariable int movieId) {
+        return sessionService.getSessionByMovieId(movieId);
+    }
 }

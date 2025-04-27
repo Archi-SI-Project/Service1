@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "startingTime": "2025-04-04T14:00:00Z",
+    "endingTime": "2025-04-04T16:30:00Z",
+    "idMovie": null,
+    "idMovieTheater": null
+  },
+  {
+    "id": 2,
+    "startingTime": "2025-04-04T18:00:00Z",
+    "endingTime": "2025-04-04T20:15:00Z",
+    "idMovie": null,
+    "idMovieTheater": null
+  },
+  {
+    "id": 3,
+    "startingTime": "2025-04-05T20:30:00Z",
+    "endingTime": "2025-04-05T23:30:00Z",
+    "idMovie": null,
+    "idMovieTheater": null
+  },
+  {
+    "id": 4,
+    "startingTime": "2025-04-12T18:00:00Z",
+    "endingTime": "2025-04-12T20:30:00Z",
+    "idMovie": null,
+    "idMovieTheater": null
+  }
+]

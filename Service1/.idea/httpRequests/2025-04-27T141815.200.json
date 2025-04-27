@@ -22,5 +22,29 @@
     "synopsis": "Une famille pauvre infiltre une maison de riches.",
     "minAge": 12,
     "genre": "Thriller"
+  },
+  {
+    "id": 3,
+    "title": "Le Seigneur des Anneaux",
+    "duration": 178,
+    "creationDate": "2001-12-19",
+    "director": "Peter Jackson",
+    "image": null,
+    "mainActors": null,
+    "synopsis": "Un anneau pour les gouverner tous.",
+    "minAge": 12,
+    "genre": "Fantasy"
+  },
+  {
+    "id": 4,
+    "title": "MAX FILM",
+    "duration": 120,
+    "creationDate": "2025-04-11",
+    "director": "John Doe",
+    "image": null,
+    "mainActors": "Jane Smith, Bob Johnson",
+    "synopsis": "Un film palpitant sur la vie de MAX.",
+    "minAge": 12,
+    "genre": "Action"
   }
 ]
