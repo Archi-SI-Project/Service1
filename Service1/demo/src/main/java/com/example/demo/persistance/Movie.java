@@ -1,6 +1,8 @@
 package com.example.demo.persistance;
 
+import com.example.demo.enums.LanguageEnum;
 import jakarta.persistence.*;
+import org.hibernate.annotations.ColumnDefault;
 
 import java.time.LocalDate;
 
@@ -8,8 +10,7 @@ import java.time.LocalDate;
 @Table(name = "movie", schema = "public")
 public class Movie {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "movie_id_gen")
-    @SequenceGenerator(name = "movie_id_gen", sequenceName = "movie_id_movie_seq", allocationSize = 1)
+    @ColumnDefault("nextval('movie_id_movie_seq')")
     @Column(name = "id_movie", nullable = false)
     private Integer id;
 
@@ -35,8 +36,16 @@ public class Movie {
 
     @Column(name = "min_age")
     private Short minAge;
+
     @Column(name = "genre", length = 50)
     private String genre;
+    @Column(name = "language")
+    @Enumerated(EnumType.STRING)
+    private LanguageEnum.SubtitleEnum language;
+
+    @Column(name = "subtitle_language")
+    @Enumerated(EnumType.STRING)
+    private LanguageEnum.SubtitleEnum subtitleLanguage;
 
     public Integer getId() {
         return id;
@@ -118,16 +127,4 @@ public class Movie {
         this.genre = genre;
     }
 
-/*
- TODO [Reverse Engineering] create field to map the 'language' column
- Available actions: Define target Java type | Uncomment as is | Remove column mapping
-    @Column(name = "language", columnDefinition = "language_enum not null")
-    private Object language;
-*/
-/*
- TODO [Reverse Engineering] create field to map the 'subtitle_language' column
- Available actions: Define target Java type | Uncomment as is | Remove column mapping
-    @Column(name = "subtitle_language", columnDefinition = "subtitle_enum")
-    private Object subtitleLanguage;
-*/
 }
