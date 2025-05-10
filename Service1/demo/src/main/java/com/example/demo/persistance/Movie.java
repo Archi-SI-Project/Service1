@@ -126,5 +126,17 @@ public class Movie {
     public void setGenre(String genre) {
         this.genre = genre;
     }
+    public LanguageEnum.SubtitleEnum getLanguage() {
+        return language;
+    }
+    public void setLanguage(LanguageEnum.SubtitleEnum language) {
+        this.language = language;
+    }
+    public LanguageEnum.SubtitleEnum getSubtitleLanguage() {
+        return subtitleLanguage;
+    }
+    public void setSubtitleLanguage(LanguageEnum.SubtitleEnum subtitleLanguage) {
+        this.subtitleLanguage = subtitleLanguage;
+    }
 
 }
