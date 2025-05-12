@@ -33,7 +33,7 @@ public class SessionController {
 
     @Transactional
     @GetMapping("/movie/{movieId}")
-    public SessionDTO getSessionByMovieId(@PathVariable int movieId) {
+    public List<SessionDTO> getSessionByMovieId(@PathVariable int movieId) {
         return sessionService.getSessionByMovieId(movieId);
     }
 }

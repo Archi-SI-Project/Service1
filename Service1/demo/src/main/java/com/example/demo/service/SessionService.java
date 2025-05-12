@@ -31,9 +31,11 @@ public class SessionService {
                 .orElse(null);
     }
 
-    public SessionDTO getSessionByMovieId(int movieId) {
-        Session session = sessionRepository.findByIdMovie_Id(movieId);
-        return session != null ? convertToDTO(session) : null;
+    public List<SessionDTO> getSessionByMovieId(int movieId) {
+        return sessionRepository.findByIdMovie_Id(movieId)
+                .stream()
+                .map(this::convertToDTO)
+                .toList();
     }
 
     // Méthode pour convertir une entité vers un DTO
