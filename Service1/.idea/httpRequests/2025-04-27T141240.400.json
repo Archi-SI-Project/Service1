@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-04-27T12:12:40.115+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/movies/search"
+}

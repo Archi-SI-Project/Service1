@@ -1,7 +1,6 @@
 package com.example.demo.persistance;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
@@ -9,14 +8,15 @@ import org.hibernate.annotations.OnDeleteAction;
 @Table(name = "movietheater", schema = "public")
 public class Movietheater {
     @Id
-    @ColumnDefault("nextval('movietheater_id_movie_theater_seq')")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "movietheater_id_gen")
+    @SequenceGenerator(name = "movietheater_id_gen", sequenceName = "movietheater_id_movie_theater_seq", allocationSize = 1)
     @Column(name = "id_movie_theater", nullable = false)
     private Integer id;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @OnDelete(action = OnDeleteAction.SET_NULL)
     @JoinColumn(name = "city_id")
-    private City city;
+    City city;
 
     @Column(name = "address", nullable = false, length = Integer.MAX_VALUE)
     private String address;

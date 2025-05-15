@@ -1,17 +1,19 @@
 package com.example.demo.persistance;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
-import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
 import java.time.Instant;
 
 @Entity
-@Table(name = "session", schema = "public")
+@Table(name = "session_instance", schema = "public")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Session {
     @Id
-    @ColumnDefault("nextval('session_id_session_seq')")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "session_id_gen")
+    @SequenceGenerator(name = "session_id_gen", sequenceName = "session_id_session_seq", allocationSize = 1)
     @Column(name = "id_session", nullable = false)
     private Integer id;
 
