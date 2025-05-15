@@ -1,5 +1,6 @@
 package com.example.demo.persistance;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
@@ -8,6 +9,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "session_instance", schema = "public")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Session {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "session_id_gen")

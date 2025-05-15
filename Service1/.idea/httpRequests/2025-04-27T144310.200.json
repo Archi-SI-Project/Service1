@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "city": null,
+    "address": "5 Rue du Cinéma, Paris",
+    "nom": "UGC Normandie"
+  },
+  {
+    "id": 2,
+    "city": null,
+    "address": "12 Avenue Lumière, Lyon",
+    "nom": "Pathé Bellecour"
+  },
+  {
+    "id": 3,
+    "city": null,
+    "address": "3 Place de la Comédie, Bordeaux",
+    "nom": "Mega CGR"
+  },
+  {
+    "id": 4,
+    "city": null,
+    "address": "5 Rue du Cinéma, Paris",
+    "nom": "Cinéma Étoile"
+  }
+]

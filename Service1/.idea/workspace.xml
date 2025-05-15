@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45f38a9-5fa5-4c6d-8741-6d0dfaff0190" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controllers/SessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/SessionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/SessionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T081058.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T081846.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T081916.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082053.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082219.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082248.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082355.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082405.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082407.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082413.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082503.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082514.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082552.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T082656.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T092501.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T093030.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T093923.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T094020.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T094049.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T094302.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-04-11T094401.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controllers/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/Movietheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/Movietheater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistance/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/MovieRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/MovieRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,19 +70,19 @@
   }
 }</component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #19" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="19" requestIdentifier="#19" runType="Run single request">
+    <configuration name="generated-requests | #20" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="20" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #20" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="20" requestIdentifier="#20" runType="Run single request">
+    <configuration name="generated-requests | #21" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="21" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #21" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="21" requestIdentifier="#21" runType="Run single request">
+    <configuration name="generated-requests | #22" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="22" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #22" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="22" requestIdentifier="#22" runType="Run single request">
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#7" index="7" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -124,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #7" />
         <item itemvalue="HTTP Request.generated-requests | #21" />
         <item itemvalue="HTTP Request.generated-requests | #20" />
         <item itemvalue="HTTP Request.generated-requests | #22" />
         <item itemvalue="HTTP Request.generated-requests | #18" />
-        <item itemvalue="HTTP Request.generated-requests | #19" />
       </list>
     </recent_temporary>
   </component>

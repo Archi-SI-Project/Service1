@@ -15,14 +15,15 @@ public class MovieRepositoryImpl implements MovieRepositoryCustom {
     @PersistenceContext
     private EntityManager entityManager;
     @Override
-    public List<Movie> searchMovies(String genre, Integer minDuration, Integer maxDuration, LocalDate minCreationDate, LocalDate maxCreationDate, String searchTerm, String city, String sessionDate) {
-        // System.out.println("genre: " + genre + ", minDuration: " + minDuration + ", maxDuration: " + maxDuration + ", minCreationDate: " + minCreationDate + ", maxCreationDate: " + maxCreationDate + ", searchTerm: " + searchTerm + ", city: " + city + ", sessionDate: " + sessionDate);
+    public List<Movie> searchMovies(String genre, Integer minDuration, Integer maxDuration,
+                                    LocalDate minCreationDate, LocalDate maxCreationDate,
+                                    String searchTerm, String city, String sessionDate) {
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT DISTINCT m.* ");
         sql.append("FROM movie m ");
-        sql.append("JOIN session_instance s ON s.id_movie = m.id_movie ");
-        sql.append("JOIN movietheater mt ON s.id_movie_theater = mt.id_movie_theater ");
-        sql.append("JOIN city c ON mt.city_id = c.id_city ");
+        sql.append("LEFT JOIN session_instance s ON s.id_movie = m.id_movie "); // LEFT JOIN ici
+        sql.append("LEFT JOIN movietheater mt ON s.id_movie_theater = mt.id_movie_theater "); // LEFT JOIN ici
+        sql.append("LEFT JOIN city c ON mt.city_id = c.id_city "); // LEFT JOIN ici
         sql.append("WHERE 1=1 ");
 
         if (genre != null) {
@@ -57,7 +58,7 @@ public class MovieRepositoryImpl implements MovieRepositoryCustom {
             }
         }
 
-        System.out.println(sql.toString());
+        System.out.println(sql.toString());  // Pour afficher la requête générée
 
         Query query = entityManager.createNativeQuery(sql.toString(), Movie.class);
 
